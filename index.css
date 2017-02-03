@@ -1,0 +1,298 @@
+body{
+    padding:0;
+    margin:0;
+    font-family: 'Lato', sans-serif;
+    color:lightgrey;
+    font-size:0.7em;
+    width:1440px;
+    font-weight:bold;
+    /*font-family: 'Playfair Display', serif;*/
+}
+
+/*HEADER*/
+header{
+    padding:5px 0 2px 150px;
+    border-bottom:1px solid lightgrey;
+}
+
+header ul, header ul li{
+    display:inline-block;
+    list-style:none;
+    padding-left:0;
+    letter-spacing: 0.089em;
+    word-spacing: -5px;
+}
+
+header a{
+     text-decoration: none;
+     color:grey;
+     padding:0 35px 0 0;
+}
+
+.language{
+    left:798px;    
+}
+
+.currency{
+    left:763px;
+}
+
+.currency, .language{
+    border-color: transparent;
+    background-color: transparent;
+    position: relative;
+    font-family: 'Lato', sans-serif;
+    color:lightgrey;
+    font-size:1em;
+    letter-spacing: 0.089em;
+}
+
+/*/HEADER*/
+
+/*MENU*/
+
+menu{
+    margin:12px 0 15px 110px;
+}
+
+menu ul{
+    margin-left:93px;
+    list-style:none;
+    letter-spacing: 0.15em;
+    word-spacing: -5px;
+}
+
+menu div, menu ul li{
+    display:inline-block;
+    margin: 0 auto;
+}
+
+.main-menu li:nth-child(3){
+    margin-left:-1px;
+}
+
+.main-menu li:nth-child(5){
+    margin-left:16px;
+}
+
+.bag{
+    margin-left:-84px;
+}
+
+.bag li{
+    word-spacing: 3px;
+}
+
+.bag li:nth-child(1){
+    padding-right:16px;
+}
+
+.bag li:nth-child(3){
+    padding-left: 23px;
+    font-size:1.4em;
+}
+
+.counter{
+    margin-top:2px;
+    border:2px solid dodgerblue;
+    border-radius: 100px;
+    padding:17px;
+    text-align: center;
+    color:black;
+}
+
+.main-menu{
+    padding-left:150px;
+    
+}
+
+.main-menu ul li{letter-spacing: 0.18em;
+    margin:0 55px 0 0;
+}
+
+.CB{
+    position:absolute;
+    padding-top:10px;
+    margin-left:-7px;
+    color:black;
+    font-size: 4.3em;
+    font-family: 'Playfair Display', serif;
+}
+
+.main-menu li a{
+    text-decoration: none;
+    color:black;
+    border-bottom: 2px solid cornflowerblue;
+    padding-bottom: 6px;
+}
+
+.main-menu li:nth-child(4){
+    color:red;
+}
+
+/*/MENU*/
+
+/*CONTENT*/
+.content{
+    border-top: 1px solid lightgray;
+}
+
+.catalog{
+    padding-top:82px;
+    padding-left:6px;
+    letter-spacing: 0.01em;
+    text-align: center;
+    font-size: 5.11em;
+    font-family: 'Playfair Display', serif;
+    font-weight:lighter;
+    color:black;
+}
+
+.menu-c ul li{
+    font-size:1.08em;
+    letter-spacing: 0.1em;
+    list-style: none;
+    display: inline-block;
+    margin:0 auto;
+    margin:42px 52px 0 0px;    
+}
+
+.menu-c li:nth-child(5){
+    margin-right:51px;
+}
+
+.menu-c{
+    margin-left:368px;
+}
+
+.menu-c a{
+    border-bottom:2px solid cornflowerblue;
+    padding-bottom:5px;
+}
+
+.picture div{
+    display: inline;
+    margin-left:150px;
+}
+
+.picture div a{
+    display: inline-block;    
+    text-align: center;   
+    margin-right:29px;
+    color: lightgray;
+}
+
+.picture p{
+    font-size:1.474em;
+    font-weight:100;
+    padding-top:5px;
+}
+
+.price{
+    margin-top:-13px;
+    word-spacing: 3px;
+}
+
+.block a{
+    padding-top:36px;
+}
+
+.block-b a{
+    margin-top:-6px;
+}
+
+.picture span{    
+    color:black;
+}
+
+.content div a{
+    text-decoration: none;    
+}
+
+.loadMore a{   
+    font-size:1.11em;
+    letter-spacing: 0.1em;
+    color:lightgrey;
+    text-align: center;
+}
+
+.subscribe{
+    margin-top:58px;
+}
+
+.subscribe input{
+    position: absolute;
+    margin:-123px 0 0 568px;
+    width:275px;
+    height:44px;
+    border-radius: 30px;
+    border-color:white;
+    padding-left:25px;
+    background-color: transparent;
+    letter-spacing: 0.05em;
+}
+
+.subscribe input:-ms-input-placeholder {
+    color: white;  font-family: 'Playfair Display', serif; font-weight:bold;
+}
+
+input::-webkit-input-placeholder {
+    color: white ; font-family: 'Playfair Display', serif; font-weight:bold;
+}
+
+/*/CONTENT*/
+footer{    
+    padding:30px 0 15px 150px;    
+}
+
+footer ul{
+    list-style: none;    
+}
+
+footer li{
+    display: inline-block;
+    color:black;
+}
+
+footer div{
+    display:inline-block;
+    margin: 0 auto;
+}
+
+footer div p {    
+   margin-left:20px;   
+}
+
+.CB-f{    
+    position:absolute;
+    margin-top:-9px;
+    margin-left:-7px;
+    color:black;
+    font-size: 4.3em;
+    font-family: 'Playfair Display', serif;
+}
+
+.menu-f{
+    margin-left:254px;
+}
+
+.menu-f ul li{
+    letter-spacing: 0.18em;
+    margin-right:50px;
+}
+
+.copyright p{
+    font-size:1em;
+    letter-spacing: 0.16em;
+    margin-left:27px;
+    color:darkgray;
+}
+
+#line{
+    text-decoration: line-through;
+    color:gray;
+}
+
+#sale{
+    color:red;
+}
