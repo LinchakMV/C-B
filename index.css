@@ -94,12 +94,14 @@ menu div, menu ul li{
 .counter{
     border:2px solid dodgerblue;
     border-radius: 50%;
-    padding:16px;
-    padding:17px;
-    text-align: center;
+    width:45px;
+    height:45px;
     color:black;
 }
-
+.counter p{
+    text-align:center;
+    padding-top:6px;
+}
 .main-menu{
     padding-left:150px;
     
